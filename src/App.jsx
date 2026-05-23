@@ -96,9 +96,15 @@ function App() {
 
           </div>
 
-          <button className="hidden md:block px-5 py-2 rounded-xl bg-green-600 hover:bg-green-700 text-white font-semibold transition">
-            Contact Us
-          </button>
+<a
+  href="https://herbal-creations.com/contact-us/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="hidden md:block px-5 py-2 rounded-xl bg-green-600 hover:bg-green-700 text-white font-semibold transition">
+    Contact Us
+  </button>
+</a>
 
         </div>
       </div>
@@ -142,7 +148,7 @@ function App() {
             {[
               { number: "500+", label: "Products" },
               { number: "25+", label: "Countries" },
-              { number: "10+", label: "Years Experience" },
+              { number: "45+", label: "Years Experience" },
               { number: "24/7", label: "Support" },
             ].map((item, index) => (
               <div
